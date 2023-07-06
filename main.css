@@ -1,0 +1,168 @@
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+  
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    flex: 1;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.header .logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    font-size: 18px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionone{
+    flex: auto;
+    display: flex;
+    background-color: #1f2937;
+    padding: 50px 75px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectiononecontent{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.sectiononecontent h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: -20px;
+}
+
+.sectiononecontent p {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.sectiononetext{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 400px;
+}
+
+.sectiononeimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.sectiontwo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.square {
+    display: flex;
+
+}
+
+.sectionthree{
+    display: flex;
+    background-color: #e5e7eb;
+
+}
+
+.sectionthreetext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 250px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+   
+}
+.sectionthreetext span{
+    justify-content: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sectionfour{
+ 
+
+}
+
+.sectionfour-container{
+    display: flex;
+    margin: 100px 250px;
+    padding: 0px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: auto;
+    gap: 150px; 
+    padding: 20px 50px;
+}
+
+.sectionfourtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionfourtext span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sectionfoursubtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.signup{
+
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
